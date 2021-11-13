@@ -88,48 +88,21 @@ button:nth-child(12),
 button:nth-child(16),
 button:nth-child(19){
     	font-size: 20px;
-    	background-image: url("https://i.pinimg.com/564x/97/9a/78/979a787e7700a6367281ed04af9c2368.jpg");
+    	background-image: url("https://i.pinimg.com/564x/f3/e3/16/f3e316f69c578f81573b2f78c0608526.jpg");
     	background-size: cover;
+    	color: white;
 }
 
 button:nth-child(17){
     	font-size: 20px;
-    	width: 130px;
-    	border-radius: 5%;
+    	margin: 15px 55px;
 }
 
 footer{
-    	height:200px;
-    	display: flex;
-    	flex-direction: column;
-    	align-items: center;
-    	justify-content: center;
-    	position: relative;
-    	background-color: black;
-}
-
-footer h1, p{
-    	font-family: calibri;
-}
- 
-footer h1{
-    	font-size: 30px;
-    	font-weight: bold;
-    	color: #FFFFFF;
-    	line-height: 5px;
-}
- 
-footer p{
-    	font-size: 16px;
-    	color: #7e7d7d;
     	text-align: center;
-}
-  
-.copyright{
-    	color: #565555;
-    	font-size: 15px;
-    	position: absolute;
-    	left: 50%;
-    	bottom: 10px;
-    	transform: translateX(-50%);
+    	background-color: black;
+    	color: white;
+    	font-family: calibri;
+    	height: 200px;
+    	padding-top: 50px;
 }
