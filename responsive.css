@@ -3,7 +3,10 @@
         align-items: center;
         padding: 0px;
         margin: 0 auto;
-        width: 50%;
+    }
+    
+    .calculator{
+        width: 100%;
     }
 }
 
@@ -12,6 +15,9 @@
         align-items: center;
         padding: 0px;
         margin: 0 auto;
+    }
+    
+    .calculator{
         width: 100%;
     }
 }
