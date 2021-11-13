@@ -4,10 +4,6 @@
         padding: 0px;
         margin: 0 auto;
     }
-    
-    .calculator{
-        width: 100%;
-    }
 }
 
 @media all and (max-width: 360px){
@@ -15,9 +11,5 @@
         align-items: center;
         padding: 0px;
         margin: 0 auto;
-    }
-    
-    .calculator{
-        width: 100%;
     }
 }
