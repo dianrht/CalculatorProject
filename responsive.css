@@ -1,0 +1,15 @@
+@media all and (max-width: 1000px){
+    .body{
+        align-items: center;
+        padding: 0px;
+        margin: 0 auto;
+    }
+}
+
+@media all and (max-width: 360px){
+    .body{
+        align-items: center;
+        padding: 0px;
+        margin: 0 auto;
+    }
+}

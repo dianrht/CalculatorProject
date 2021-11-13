@@ -1,0 +1,129 @@
+body{
+	font-family: 'Open Sans',sans-serif;
+	background-image: url("http://drive.google.com/uc?export=view&id=1vpgfGq77sYR5yWDJMHniuOccoyjaZF4f");
+    background-size: cover;
+}
+
+#container{
+	height: 550px;
+	margin: 20px auto;
+}
+
+#calculator{
+	width: 320px;
+	height: 520px;
+    background-color: #F8F1F1;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.16);
+}
+
+#result{
+    height: 120px;
+}
+
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #919191;
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+    color: black;
+}
+#keyboard{
+    height: 400px;
+}
+.operator, .number{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+.number{
+    background-color: #FEF5ED;
+}
+
+.number:hover,
+.operator:hover{
+    background-color: #DAD0C2;
+}
+
+.operator{
+    background-color: #EFE3D0;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.16);
+}
+
+.number, .operator{
+    cursor: pointer;
+}
+.number:active, .operator:active{
+    font-size: 13px;
+}
+.number:focus, .operator:focus{
+    outline: 0;
+}
+button:nth-child(4),
+button:nth-child(8),
+button:nth-child(12),
+button:nth-child(16),
+button:nth-child(19){
+    font-size: 20px;
+    background-image: url("https://i.pinimg.com/564x/97/9a/78/979a787e7700a6367281ed04af9c2368.jpg");
+    background-size: cover;
+}
+
+button:nth-child(17){
+    font-size: 20px;
+    width: 130px;
+    border-radius: 5%;
+}
+
+footer{
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: black;
+}
+
+footer h1, p{
+    font-family: calibri;
+}
+ 
+footer h1{
+    font-size: 30px;
+    font-weight:bold;
+    color:#FFFFFF;
+    line-height:5px;
+}
+ 
+footer p{
+    font-size: 16px;
+    color:#7e7d7d;
+    width:600px;
+    text-align: center;
+}
+  
+.copyright{
+    color:#565555;
+    font-size: 15px;
+    position: absolute;
+    left:50%;
+    bottom:10px;
+    transform: translateX(-50%);
+}
