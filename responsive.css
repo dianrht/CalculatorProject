@@ -4,6 +4,10 @@
         padding: 0px;
         margin: 0 auto;
     }
+    
+    .calculator{
+        width: 100%;
+    }
 
     footer h1{
         padding-top: 10px;
@@ -20,6 +24,10 @@
         align-items: center;
         padding: 0px;
         margin: 0 auto;
+    }
+    
+    .calculator{
+        width: 100%;
     }
 
     footer h1{
